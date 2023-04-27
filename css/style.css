@@ -1,24 +1,50 @@
 :root {
-    --main-font-family: 'Roboto', sans-serif;
-    --logo: 'Raleway', sans-serif;
-    --primary-text-color-theme: #2E2F42;
-    --secondary-text-color-theme: #434455;
-    --accent-color: #4D5AE5;
+  --main-font-family: 'Roboto', sans-serif;
+  --logo: 'Raleway', sans-serif;
+  --primary-text-color-theme: #2e2f42;
+  --secondary-text-color-theme: #434455;
+  --accent-color: #4d5ae5;
 }
 
 body {
-    font-family: var(--main-font-family);
+  font-family: var(--main-font-family);
 }
 
 button {
-    font-family: inherit;
-    cursor: pointer;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+/*=== HEADER ===*/
+.logo {
+  font-family: var(--logo);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.first-part-logo {
+  color: var(--accent-color);
+}
+.second-part-logo {
+  color: var(--primary-text-color-theme);
+}
+
+.main-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-theme);
 }
