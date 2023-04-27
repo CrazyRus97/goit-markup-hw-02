@@ -1,0 +1,24 @@
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+    --logo: 'Raleway', sans-serif;
+    --primary-text-color-theme: #2E2F42;
+    --secondary-text-color-theme: #434455;
+    --accent-color: #4D5AE5;
+}
+
+body {
+    font-family: var(--main-font-family);
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
