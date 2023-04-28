@@ -11,6 +11,8 @@
 
 body {
   font-family: var(--main-font-family);
+  color: var(--secondary-color-dark-theme);
+  background-color: var(--secondary-color-light-theme);
 }
 
 button {
@@ -92,7 +94,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color-dark-theme);
 }
 .contact-list-link:hover,
 .contact-list-link:focus {
@@ -127,7 +128,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color-dark-theme);
 }
 
 /*========== COMPANY PRODUCTS ==========*/
@@ -154,11 +154,9 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color-dark-theme);
 }
 
 /*==================================== PORTFOLIO ====================================*/
-/*========== FILTERS ==========*/
 .filters-list-btn {
   font-weight: 500;
   font-size: 16px;
@@ -173,7 +171,7 @@ button {
   color: var(--secondary-color-light-theme);
   background-color: var(--accent-color);
 }
-/*========== PORTFOLIO LIST ==========*/
+
 .portfolio-list-name {
   font-weight: 500;
   font-size: 20px;
@@ -187,7 +185,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color-dark-theme);
 }
 /*==================================== FOOTER ====================================*/
 .page-footer {
