@@ -11,8 +11,8 @@
 
 body {
   font-family: var(--main-font-family);
-  color: var(--secondary-color-dark-theme);
-  background-color: var(--secondary-color-light-theme);
+  color: #434455;
+  background-color: #ffffff;
 }
 
 button {
@@ -37,11 +37,11 @@ button {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--secondary-color-light-theme);
-  background-color: var(--primary-brand-color);
+  background-color: #4d5ae5;
 }
 .modal-opn-btn:hover,
 .modal-opn-btn:focus {
-  background-color: var(--accent-color);
+  background-color: #4048bf;
 }
 
 .subtitle {
@@ -62,18 +62,15 @@ button {
   display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.first-part-logo {
-  color: var(--primary-brand-color);
+  color: #4d5ae5;
 }
 
 .second-part-logo-dark-theme {
-  color: var(--primary-color-light-theme);
+  color: #f4f4fd;
 }
 
 .second-part-logo-light-theme {
-  color: var(--primary-color-dark-theme);
+  color: #2e2f42;
 }
 
 /*==================================== HEADER ====================================*/
@@ -86,10 +83,11 @@ button {
 }
 .main-menu-link:hover,
 .main-menu-link:focus {
-  color: var(--accent-color);
+  color: #4048bf;
 }
 
 .contact-list-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -97,7 +95,7 @@ button {
 }
 .contact-list-link:hover,
 .contact-list-link:focus {
-  color: var(--accent-color);
+  color: #4048bf;
 }
 /*==================================== STUDIO ====================================*/
 /*========== HERO ==========*/
@@ -163,13 +161,13 @@ button {
   line-height: 1.5;
   display: flex;
   letter-spacing: 0.04em;
-  color: var(--primary-brand-color);
+  color: #4d5ae5;
   background-color: var(--primary-color-light-theme);
 }
 .filters-list-btn:hover,
 .filters-list-btn:focus {
   color: var(--secondary-color-light-theme);
-  background-color: var(--accent-color);
+  background-color: #4048bf;
 }
 
 .portfolio-list-name {
