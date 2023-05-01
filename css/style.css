@@ -82,7 +82,11 @@ button {
   letter-spacing: 0.02em;
   color: var(--primary-color-dark-theme);
 }
-.main-menu-link:hover,
+
+.main-menu-link:hover {
+  color: #4044bf;
+}
+
 .main-menu-link:focus {
   color: #4044bf;
 }
