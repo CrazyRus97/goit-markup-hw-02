@@ -37,7 +37,7 @@ button {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--secondary-color-light-theme);
-  background-color: #4d5ae5;
+  background-color: var(--primary-brand-color);
 }
 
 .modal-opn-btn:hover {
@@ -66,7 +66,7 @@ button {
   display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
 }
 
 .second-part-logo-dark-theme {
@@ -107,11 +107,11 @@ button {
 }
 
 .contact-list-link:hover {
-  color: #4044bf;
+  color: var(--accent-color);
 }
 
 .contact-list-link:focus {
-  color: #4044bf;
+  color: var(--accent-color);
 }
 
 /*==================================== STUDIO ====================================*/
@@ -178,7 +178,7 @@ button {
   line-height: 1.5;
   display: flex;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
   background-color: var(--primary-color-light-theme);
 }
 
