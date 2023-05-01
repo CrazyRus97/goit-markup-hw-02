@@ -40,7 +40,10 @@ button {
   background-color: #4d5ae5;
 }
 
-.modal-opn-btn:hover,
+.modal-opn-btn:hover {
+  background-color: #4044bf;
+}
+
 .modal-opn-btn:focus {
   background-color: #4044bf;
 }
@@ -103,10 +106,14 @@ button {
   color: #434455;
 }
 
-.contact-list-link:hover,
+.contact-list-link:hover {
+  color: #4044bf;
+}
+
 .contact-list-link:focus {
   color: #4044bf;
 }
+
 /*==================================== STUDIO ====================================*/
 /*========== HERO ==========*/
 .hero {
@@ -175,7 +182,11 @@ button {
   background-color: var(--primary-color-light-theme);
 }
 
-.filters-list-btn:hover,
+.filters-list-btn:hover {
+  color: var(--secondary-color-light-theme);
+  background-color: #4044bf;
+}
+
 .filters-list-btn:focus {
   color: var(--secondary-color-light-theme);
   background-color: #4044bf;
