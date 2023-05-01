@@ -6,7 +6,7 @@
   --primary-color-dark-theme: #2e2f42;
   --secondary-color-dark-theme: #434455;
   --primary-brand-color: #4d5ae5;
-  --accent-color: #4048bf;
+  --accent-color: #4044bf;
 }
 
 body {
@@ -87,7 +87,7 @@ button {
 
 .main-menu-link:hover,
 .main-menu-link:focus {
-  color: #4048bf;
+  color: #404bbf;
 }
 
 .contact-info {
@@ -104,7 +104,7 @@ button {
 
 .contact-list-link:hover,
 .contact-list-link:focus {
-  color: #4048bf;
+  color: #4044bf;
 }
 /*==================================== STUDIO ====================================*/
 /*========== HERO ==========*/
@@ -177,7 +177,7 @@ button {
 .filters-list-btn:hover,
 .filters-list-btn:focus {
   color: var(--secondary-color-light-theme);
-  background-color: #4048bf;
+  background-color: #4044bf;
 }
 
 .portfolio-list-name {
