@@ -105,7 +105,7 @@ button {
 
 .contact-list-link:hover,
 .contact-list-link:focus {
-  color: var(--accent-color);
+  color: #4044bf;
 }
 /*==================================== STUDIO ====================================*/
 /*========== HERO ==========*/
@@ -178,7 +178,7 @@ button {
 .filters-list-btn:hover,
 .filters-list-btn:focus {
   color: var(--secondary-color-light-theme);
-  background-color: var(--accent-color);
+  background-color: #4044bf;
 }
 
 .portfolio-list-name {
