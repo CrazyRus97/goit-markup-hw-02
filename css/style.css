@@ -40,10 +40,7 @@ button {
   background-color: #4d5ae5;
 }
 
-.modal-opn-btn:hover {
-  background-color: #4044bf;
-}
-
+.modal-opn-btn:hover,
 .modal-opn-btn:focus {
   background-color: #4044bf;
 }
@@ -85,13 +82,9 @@ button {
   letter-spacing: 0.02em;
   color: var(--primary-color-dark-theme);
 }
-
-.main-menu-link:hover {
-  color: #404bbf;
-}
-
+.main-menu-link:hover,
 .main-menu-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 .contact-info {
@@ -108,7 +101,7 @@ button {
 
 .contact-list-link:hover,
 .contact-list-link:focus {
-  color: #4044bf;
+  color: var(--accent-color);
 }
 /*==================================== STUDIO ====================================*/
 /*========== HERO ==========*/
@@ -181,7 +174,7 @@ button {
 .filters-list-btn:hover,
 .filters-list-btn:focus {
   color: var(--secondary-color-light-theme);
-  background-color: #4044bf;
+  background-color: var(--accent-color);
 }
 
 .portfolio-list-name {
