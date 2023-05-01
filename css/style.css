@@ -84,7 +84,7 @@ button {
 }
 .main-menu-link:hover,
 .main-menu-link:focus {
-  color: var(--accent-color);
+  color: #4044bf;
 }
 
 .contact-info {
