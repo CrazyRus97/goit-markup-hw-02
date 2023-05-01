@@ -39,6 +39,7 @@ button {
   color: var(--secondary-color-light-theme);
   background-color: #4d5ae5;
 }
+
 .modal-opn-btn:hover {
   background-color: #4044bf;
 }
@@ -85,7 +86,10 @@ button {
   color: var(--primary-color-dark-theme);
 }
 
-.main-menu-link:hover,
+.main-menu-link:hover {
+  color: #404bbf;
+}
+
 .main-menu-link:focus {
   color: #404bbf;
 }
