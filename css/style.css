@@ -40,10 +40,7 @@ button {
   background-color: var(--primary-brand-color);
 }
 
-.modal-opn-btn:hover {
-  background-color: var(--accent-color);
-}
-
+.modal-opn-btn:hover,
 .modal-opn-btn:focus {
   background-color: var(--accent-color);
 }
@@ -86,10 +83,7 @@ button {
   color: var(--primary-color-dark-theme);
 }
 
-.main-menu-link:hover {
-  color: var(--accent-color);
-}
-
+.main-menu-link:hover,
 .main-menu-link:focus {
   color: var(--accent-color);
 }
@@ -106,10 +100,7 @@ button {
   color: #434455;
 }
 
-.contact-list-link:hover {
-  color: var(--accent-color);
-}
-
+.contact-list-link:hover,
 .contact-list-link:focus {
   color: var(--accent-color);
 }
