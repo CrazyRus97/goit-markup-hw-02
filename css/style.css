@@ -41,11 +41,11 @@ button {
 }
 
 .modal-opn-btn:hover {
-  background-color: #4044bf;
+  background-color: var(--accent-color);
 }
 
 .modal-opn-btn:focus {
-  background-color: #4044bf;
+  background-color: var(--accent-color);
 }
 
 .subtitle {
@@ -87,11 +87,11 @@ button {
 }
 
 .main-menu-link:hover {
-  color: #4044bf;
+  color: var(--accent-color);
 }
 
 .main-menu-link:focus {
-  color: #4044bf;
+  color: var(--accent-color);
 }
 
 .contact-info {
@@ -184,12 +184,12 @@ button {
 
 .filters-list-btn:hover {
   color: var(--secondary-color-light-theme);
-  background-color: #4044bf;
+  background-color: var(--accent-color);
 }
 
 .filters-list-btn:focus {
   color: var(--secondary-color-light-theme);
-  background-color: #4044bf;
+  background-color: var(--accent-color);
 }
 
 .portfolio-list-name {
