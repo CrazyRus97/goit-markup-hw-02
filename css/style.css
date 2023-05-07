@@ -11,8 +11,9 @@
 
 body {
   font-family: var(--main-font-family);
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--secondary-color-dark-theme);
+  background-color: var(--secondary-color-light-theme);
+  font-weight: 400;
 }
 
 button {
@@ -67,11 +68,11 @@ button {
 }
 
 .second-part-logo-dark-theme {
-  color: #f4f4fd;
+  color: var(--primary-color-light-theme);
 }
 
 .second-part-logo-light-theme {
-  color: #2e2f42;
+  color: var(--primary-color-dark-theme);
 }
 
 /*==================================== HEADER ====================================*/
@@ -93,11 +94,10 @@ button {
 }
 
 .contact-list-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-color-dark-theme);
 }
 
 .contact-list-link:hover,
@@ -130,7 +130,6 @@ button {
 }
 
 .features-list-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -156,7 +155,6 @@ button {
 }
 
 .employees-list-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -192,7 +190,6 @@ button {
 }
 
 .portfolio-list-filter {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -203,7 +200,6 @@ button {
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
